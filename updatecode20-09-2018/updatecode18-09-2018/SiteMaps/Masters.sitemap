@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title="Home" roles="*" description="">
+    <siteMapNode url="Default.aspx" title="Home" roles="Admin" description=""/>
+    <siteMapNode url="" title="Master's Management" roles="Admin" description="">
+      <siteMapNode url="Masters/StateMasters.aspx" title="State Master" roles="Admin" description=""/>
+      <siteMapNode url="Masters/DistrictMasters.aspx" title="District Master" roles="Admin" description=""/>
+    
+      <siteMapNode url="Masters/Tehsils.aspx" title="Tehsil Master" roles="Admin" description=""/>
+      <siteMapNode url="Masters/VillageMaster.aspx" title="Village Master" roles="Admin" description=""/>
+
+      <siteMapNode url="Masters/Category.aspx" title="Category Master" roles="Admin" description=""/>
+      <siteMapNode url="Masters/Gender.aspx" title="Gender Master" roles="Admin" description=""/>
+      <siteMapNode url="Masters/SpecialCategory.aspx" title="Special Category Master" roles="Admin" description=""/>
+      <siteMapNode url="Masters/FeeHeads.aspx" title="Fee Heads Master" roles="Admin" description=""/>
+      <siteMapNode url="Masters/Religions.aspx" title="Religion Master" roles="Admin" description=""/>
+    </siteMapNode>
+    <siteMapNode url="" title="Course Management" roles="Admin" description="">
+      <siteMapNode url="Masters/Course_Type.aspx" title="Course Type" roles="Admin" description=""/>
+      <siteMapNode url="Masters/Courses_All.aspx" title="Course Master" roles="Admin" description=""/>
+      <siteMapNode url="Masters/Courses_Branch.aspx" title="Course Branch Master" roles="Admin" description=""/>
+    </siteMapNode>
+    <siteMapNode url="" title="User Management" roles="Admin" description="">
+      <siteMapNode url="AdministrationSU/CreateUser.aspx" title="Create User" roles="Admin" description=""/>
+      <siteMapNode url="AdministrationSU/Assign_Roles.aspx" title="Assign Role" roles="Admin" description=""/>
+      <siteMapNode url="AdministrationSelf/ChangePassword.aspx" title="Change Password" roles="Admin" description=""/>
+    </siteMapNode>
+
+    <siteMapNode url="" title="Administrative Reports" roles="Admin" description="">
+      <siteMapNode url="" title="FeedBack" roles="Admin" description=""/>
+      <siteMapNode url="AdministrationSU/WhoIsOnline.aspx" title="Who Is Online" roles="Admin" description=""/>
+      <siteMapNode url="" title="Audit Trail" roles="Admin" description=""/>
+      <siteMapNode url="" title="List of Users" roles="Admin" description=""/>
+      <siteMapNode url="Masters/UploadActivityScheduleppdf.aspx" title="Upload Scholarship Activity Schedule." roles="Admin" description=""/>
+
+    </siteMapNode>
+    <!--<siteMapNode url="Portal/Public/Portal_Main.aspx" title="Content Management" roles="Admin" description=""/>-->
+    <siteMapNode url="Masters/New_IFSC_Code.aspx" title="Unregistered IFSC Code List" roles="Admin" description=""/>
+
+
+
+    <siteMapNode url="" title="Scheme Registration" roles="Admin" description="">
+      <siteMapNode url="StateAdmin/DataManagement/Scheme_Registration.aspx" title="Register Schemes" roles="Admin,StateAdmin" description=""/>
+      <siteMapNode url="StateAdmin/DataManagement/Scheme_Basic_Registration.aspx" title="Register Basic Definition of Scheme" roles="Admin,StateAdmin" description=""/>
+      <siteMapNode url="StateAdmin/DataManagement/Add_IncomeBand_Details.aspx" title="Register Income-Bands" roles="Admin,StateAdmin" description=""/>
+      <siteMapNode url="StateAdmin/DataManagement/IncomeBand_Percentage_Details.aspx" title="Register Course Fee Percentage for Income-Bands" roles="Admin,StateAdmin" description=""/>
+      <siteMapNode url="StateAdmin/DataManagement/Add_Course_Group_Details.aspx" title="Register Course Groups" roles="Admin,StateAdmin" description=""/>
+      <siteMapNode url="StateAdmin/DataManagement/Maintenance_Allowance_Details.aspx" title="Register Maintainance Allowance of Course Groups" roles="Admin,StateAdmin" description=""/>
+      <siteMapNode url="StateAdmin/DataManagement/Add_Course_Into_CourseGroup.aspx" title="Register Course with Course Groups" roles="Admin,StateAdmin" description=""/>
+      <siteMapNode url="StateAdmin/DataManagement/Show_Course_Into_CourseGroup.aspx" title="View Courses registered under Course Groups" roles="Admin,StateAdmin" description=""/>
+      <siteMapNode url="StateAdmin/DataManagement/Enter_Course_Fee_Details.aspx" title="Register Course Fee for Courses" roles="Admin,StateAdmin" description=""/>
+      <siteMapNode url="" title="Assign Other Fee" roles="Admin,StateAdmin" description="">
+        <siteMapNode url="StateAdmin/DataManagement/Assign_Other_Fee_To_State.aspx" title="Register Fee Heads" roles="Admin,StateAdmin" description=""/>
+        <siteMapNode url="StateAdmin/DataManagement/Enter_Other_Fee_Amount.aspx" title="Register Ceiling to Fee Heads" roles="Admin,StateAdmin" description=""/>
+        <siteMapNode url="StateAdmin/DataManagement/Edit_Other_Fee_Amount.aspx" title="Update Ceiling of Fee Heads" roles="Admin,StateAdmin" description=""/>
+      </siteMapNode>
+      <siteMapNode url="StateAdmin/DataManagement/View_Schemes.aspx" title="View Scheme Details" roles="Admin,StateAdmin" description=""/>
+    </siteMapNode>
+
+
+    <siteMapNode url="" title="District Management" roles="Admin" description="">
+      <siteMapNode url="StateAdmin/DataManagement/CreateDistrictUser.aspx" title="Create District User" roles="Admin,StateAdmin" description=""/>
+
+      <siteMapNode url="StateAdmin/DataManagement/ChangeDistrictPassword.aspx" title="Reset District User" roles="Admin,StateAdmin" description=""/>
+      <!--<siteMapNode url="StateAdmin/DataManagement/Institute_Change_PW.aspx" title="Reset Institute User" roles="Admin,StateAdmin" description=""/>-->
+      <siteMapNode url="StateAdmin/DataManagement/ChangePassword.aspx" title="Change Self Password" roles="Admin,StateAdmin" description=""/>
+    </siteMapNode>
+
+  </siteMapNode>
+</siteMap>
+
